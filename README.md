@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Nyanuga
+- 👋 Hi, I’m @Junior Ezed
 - 👀 I’m interested in all activities 
 - 🌱 I’m currently learning ups 
 - 💞️ I’m looking to collaborate on ...
@@ -7,6 +7,6 @@
 - ⚡ Fun fact: ...
 
 <!---
-Nyanuga/Nyanuga is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Nyanuga/junior is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->

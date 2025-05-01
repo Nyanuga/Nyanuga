@@ -19,8 +19,8 @@ const antidel = process.env.ANTIDELETE || 'TRUE';
 const botname = process.env.BOTNAME || 'PRINCE-JUNIOR';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'𝗕𝗢𝗧';
-const packname = process.env.STICKER_PACKNAME || 'PRINCE';
-const dev = process.env.DEV || '254741388986';
+const packname = process.env.STICKER_PACKNAME || 'PRINCE JUNIOR';
+const dev = process.env.DEV || '254723245807';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';

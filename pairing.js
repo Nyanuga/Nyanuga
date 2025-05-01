@@ -3,13 +3,13 @@ const generatePairLink = async (client, m, text) => {
   try {
     let args = text.split(" ");
     if (args.length < 1) {
-      return m.reply("❌ Please provide a client's WhatsApp number. Example: `.pair 254723245807`");
+      return m.reply("❌ Please provide a client's WhatsApp number. Example: `.pair 254741388986`");
     }
 
     let clientNumber = args[0].trim();
 
     // Fetch the pair code from the pairing link API
-    let response = await fetch(`https://Prince-Junior-V1-cjp7.onrender.com/generate?number=${clientNumber}`);
+    let response = await fetch(`https://mzazi-xmd-cjp7.onrender.com/generate?number=${clientNumber}`);
     let data = await response.json();
 
     if (!data.success) {
@@ -17,7 +17,7 @@ const generatePairLink = async (client, m, text) => {
     }
 
     let pairCode = data.pairCode;
-    let pairLink = `https://prince-junior-v1-cjp7.onrender.com/pair?code=${pairCode}&number=${clientNumber}`;
+    let pairLink = `https://mzazi-xmd-cjp7.onrender.com/pair?code=${pairCode}&number=${clientNumber}`;
 
     let message = `🔗 *Pairing Link Generated:*\n📌 Client: ${clientNumber}\n🔑 Code: ${pairCode}\n🌍 Link: ${pairLink}`;
 

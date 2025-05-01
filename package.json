@@ -91,10 +91,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Nyanunga/Prince-Junior.git" 
+     "url": "git+https://github.com/Nyanunga/Nyanuga.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Nyanunga/Prince-Junior/issues" 
+     "url": "https://github.com/Nyanunga/Nyanuga/issues" 
    }, 
-   "homepage": "https://github.com/Nyanunga/Prince-Junior#readme" 
+   "homepage": "https://github.com/Nyanunga/Nyanuga#readme" 
    }

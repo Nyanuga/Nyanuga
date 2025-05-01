@@ -2,7 +2,7 @@
         and don't forget to say hi to your partner. */
 
 const {
-  default: mzaziConnect,
+  default:Princejuniorv1Connect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -28,8 +28,8 @@ const _ = require("lodash");
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/mzaziexif');
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/mzazifunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/prnice-junior-v1 exif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/prince-junior-V1func');
 const { sessionName, session, autobio, autolike, port, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
@@ -43,7 +43,7 @@ async function startMzazi() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("MZAZI", {
+      figlet.textSync("PRINCE-JUNIOR", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -53,7 +53,7 @@ async function startMzazi() {
     )
   );
 
-  const client = mzaziConnect({
+  const client = prnice-juniorConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["Prince-Junior", "Safari", "5.1.7"],
@@ -90,7 +90,7 @@ async function startMzazi() {
       if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
 
       let m = smsg(client, mek, store);
-      const mzazi = require("./mzazi");
+      const junior = require("./junior");
       mzazi(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
@@ -183,7 +183,7 @@ async function startMzazi() {
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
         console.log("Connection closed, reconnecting....");
-        startMzazi();
+        startPrincejunior();
       } else if (reason === DisconnectReason.connectionLost) {
         console.log("Connection Lost from Server, reconnecting...");
         startMzazi();
@@ -198,17 +198,17 @@ async function startMzazi() {
         startMzazi();
       } else if (reason === DisconnectReason.timedOut) {
         console.log("Connection TimedOut, Reconnecting...");
-        startMzazi();
+        startPrinejunior();
       } else {
         console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
-        startMzazi();
+        startPrincejunior();
       }
     } else if (connection === "open") {
       await client.groupAcceptInvite("ErhgRpemSxKDWJunjNr3yw");
-      console.log(color("Congrats, MZAZI-XMD has successfully connected to this server", "green"));
+      console.log(color("Congrats, PRINCE-JUNIOR V1 has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254798956113 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲` });
+      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲[PRINCE-JUNIOR V1】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254723245807 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲` });
     }
   });
   client.ev.on("creds.update", saveCreds);
@@ -250,7 +250,7 @@ async function startMzazi() {
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/mzaziexif.js');
+      let { writeExif } = require('./lib/princejuniorexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
@@ -362,7 +362,7 @@ app.use(express.static("pixel"));
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 
-startMzazi();
+startprnicejuniorv1();
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {

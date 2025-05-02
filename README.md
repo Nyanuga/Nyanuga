@@ -54,7 +54,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## ` Fork this repo`
 <p align="centre">
-<a href="https://github.com/Nyanuga/Nyanuga/forks"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
+<a href="https://github.com/Nyanuga/Nyanuga/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
 <p/>
   
 Linking/Pairing:

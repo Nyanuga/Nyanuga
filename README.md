@@ -32,7 +32,7 @@
 <a href="https://https://github.com/Nyanuga?tab=followers"><img title="Followers" src="https://files.catbox.moe/4506bh.jpg?label=Followers&style=social"></a>
 <a href="https://github.com/Nyanuga/Nyanuga/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TeddyDommie/MZAZI-XMD?&style=social"></a>
 <a href="https://github.com/TeddyDommie/PRINCE-JUNIOR-V1/network/members"><img title="Fork" src="https://img.shields.io/github/forks/TeddyDommie/MZAZI-XMD?style=social"></a>
-<a href="https://github.com/TeddyDommie/MZAZI-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TeddyDommie/MZAZI-XMD?label=Watching&style=social"></a>
+<a href="https://github.com/Nyanuga/Nyanuga/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TeddyDommie/MZAZI-XMD?label=Watching&style=social"></a>
 </p>
  
 
@@ -54,7 +54,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## ` Fork this repo`
 <p align="centre">
-<a href="https://github.com/TeddyDommie/MZAZI-XMD/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
+<a href="https://github.com/Nyanuga/Nyanuga/forks"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
 <p/>
   
 Linking/Pairing:

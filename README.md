@@ -29,7 +29,7 @@
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-JUNIOR-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/TeddyDommie?tab=followers"><img title="Followers" src="https://files.catbox.moe/4506bh.jpg?label=Followers&style=social"></a>
+<a href="https://https://github.com/Nyanuga?tab=followers"><img title="Followers" src="https://files.catbox.moe/4506bh.jpg?label=Followers&style=social"></a>
 <a href="https://github.com/TeddyDommie/MZAZI-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TeddyDommie/MZAZI-XMD?&style=social"></a>
 <a href="https://github.com/TeddyDommie/PRINCE-JUNIOR-V1/network/members"><img title="Fork" src="https://img.shields.io/github/forks/TeddyDommie/MZAZI-XMD?style=social"></a>
 <a href="https://github.com/TeddyDommie/MZAZI-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TeddyDommie/MZAZI-XMD?label=Watching&style=social"></a>
